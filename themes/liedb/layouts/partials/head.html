@@ -17,6 +17,7 @@
     {{ range .Params.tags }}
     <meta property="og:tags" content="{{ . }}">
     {{ end }}
+    <meta http-equiv="refresh" content="0; url=http://www.factopolis.com{{ .URL }}">
     {{ .Hugo.Generator }}
     <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
     {{ range .Params.css }}
